@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+  <class name="com.cdac.pojos.Book" table="books">
+    <id name="id" type="int">
+      <generator class="native"></generator>
+    </id>
+    <property name="title"></property>
+    <property name="author"></property>
+    <property name="price" type="float"></property>
+  </class>
+</hibernate-mapping>
